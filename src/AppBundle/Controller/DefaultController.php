@@ -556,7 +556,7 @@ class DefaultController extends FOSRestController
     }
 
     /**
-     * @Rest\Put("/completed")
+     * @Rest\Put("api/completed")
      */
     public function itemComplted(Request $request, CredentialsCheck $credentialsCheck)
     {
